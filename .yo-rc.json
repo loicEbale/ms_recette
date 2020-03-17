@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sprintpay.recette",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "microservice",
+    "baseName": "msRecette",
+    "packageName": "com.sprintpay.recette",
+    "packageFolder": "com/sprintpay/recette",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "msUaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NzUwMDM2MjU2MjcyNTk1ZGMzNmQ4NjNmY2Q4NDAxNTkzODBlODk4YmRhY2M5NmJmMzk4YzNhZmNjOGQ5YjJiMTJmMGU2OGEyMTA0YjgzZmE1NGViNjFmMTJhZDA2MGNiZTdiOTlhMzE3NDYyZjU0YjZmNWRhNTEwN2Y5Mjk3NDQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1583855417686,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

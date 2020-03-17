@@ -1,0 +1,32 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "msRecette",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "intitule",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "montant",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "idOrganisation",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20200310160006",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "recette",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "msRecette"
+}
